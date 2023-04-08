@@ -50,4 +50,50 @@ Install python3 with pip
   pip install requests
  
 ```
-    
+   
+##Basic Flow Diagram
+
+
+
+
+                  +-------------------+
+                  |                   |
+                  |     Data Source   |
+                  |                   |
+                  +--------+----------+
+                           |
+                           | Raw Data
+                           |
+                  +--------v----------+
+                  |                   |
+                  |  Data Ingestion   |
+                  |   Application     |
+                  |   using Python3   |
+                  |   and SQLite3     |
+                  |                   |
+                  +--------+----------+
+                           |
+                           | Processed Data
+                           |
+                  +--------v----------+
+                  |                   |
+                  |   SQLite Database |
+                  |                   |
+                  +--------+----------+
+                           |
+                           | SQL Queries
+                           |
+                  +--------v----------+
+                  |                   |
+                  |     Flask App     |
+                  |                   |
+                  +--------+----------+
+                           |
+                           | HTTP Requests
+                           |
+                  +--------v----------+
+                  |                   |
+                  |      Client       |
+                  |                   |
+                  +-------------------+
+
