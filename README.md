@@ -40,7 +40,7 @@ flask --app pinacalabs_round2 run
 
 ## Installation
 
-Install python3 with pip
+Requirements: 
 
 ```bash
   pip install python3
