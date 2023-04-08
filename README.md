@@ -25,8 +25,7 @@ Demo VIDEO :
 https://user-images.githubusercontent.com/130124301/230705990-2b049c68-22b8-48d3-934e-6f4a9aa78723.mp4
 ## Deployment
 
-To deploy this project run
-
+To run this application -
 ```bash
 #create database and insert data
 python3 ingestion.py
