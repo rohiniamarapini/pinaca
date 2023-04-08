@@ -23,3 +23,31 @@ Demo VIDEO :
 
 
 https://user-images.githubusercontent.com/130124301/230705990-2b049c68-22b8-48d3-934e-6f4a9aa78723.mp4
+## Deployment
+
+To deploy this project run
+
+```bash
+#create database and insert data
+python3 ingestion.py
+
+#run python flask application
+python3 pinacalabs_round2.py
+flask --app pinacalabs_round2 run
+```
+'
+
+
+## Installation
+
+Install python3 with pip
+
+```bash
+  pip install python3
+  pip install pandas
+  pip install flask
+  pip install sqlite3
+  pip install requests
+ 
+```
+    
