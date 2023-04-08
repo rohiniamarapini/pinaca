@@ -1,6 +1,6 @@
 # Data ingestion in DB and Response generation.
 
-A Basic Flask application that'll scrape data from a data source and ingest the same in SQlite DB. Further, Generate responses according to the field given by client. 
+A Basic Flask application that'll scrape data from a data source and ingest the same into SQlite DB. Further, Generate responses according to the field given by client. 
 
 
 ## Acknowledgements
