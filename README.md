@@ -35,7 +35,7 @@ python3 ingestion.py
 python3 pinacalabs_round2.py
 flask --app pinacalabs_round2 run
 ```
-'
+
 
 
 ## Installation
